@@ -1,0 +1,17 @@
+body {
+    background-color: gray;
+    font-family: "Trebuchet MS";
+}
+
+    .botcontainer {
+        background-color: #efefef;
+    }
+
+    #iphone7 {
+        width: 100px;
+        height: 100px;
+    }
+    p {
+        text-align: justify;
+        float: right;
+    }
