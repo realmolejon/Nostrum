@@ -2,8 +2,9 @@
 <head> 
 <style type="text/css"> 
 body {
-	font-family: "calibri";
+	font-family: "Calibri";
 	color: #073C6D;
+    background-color: #f1fcff;
 }
 .bottomTitle {
 	font-size: 30px;
@@ -11,17 +12,18 @@ body {
 .centerDiv { 
 	width: 70%; 
 	height:800px; 
-	margin: 0 auto; 
-	/*background-color:#FFA500;*/
-	padding: 0 10px;
+	margin: 0 auto;
+	background-color: #f1fcff;
+	padding: 10px;
 	}
 .container {
+    width: 275px;
    margin-top: 15px;
    float: left;
    margin-left: 25px;
    font-size: 18px;
 }
-.container .icon1 {
+.icon1 {
     height: 90px;
     width: 80px;
     background-image: url(images/wifi.png);
@@ -30,7 +32,7 @@ body {
     vertical-align: middle;
     padding-left: 80px;
 }
-.container .icon2 {
+.icon2 {
     height: 90px;
     width: 80px;
     background-image: url(images/connect.png);
@@ -39,7 +41,7 @@ body {
     vertical-align: middle;
     padding-left: 80px;
 }
-.container .icon3 {
+.icon3 {
     height: 90px;
     width: 80px;
     background-image: url(images/message.png);
@@ -48,14 +50,17 @@ body {
     vertical-align: middle;
     padding-left: 80px;
 }
-.container .icontent {
+.icontent {
     display: inline-block;
     vertical-align: middle;
-    width: 210px;
-    height:40px;
+    width: 235px;
+    height:45px;
     background: #efefef;
     margin-top: 15px;
+    margin-left: -10px;
+    text-align: center;
 }
+
 .phone {
    margin-top: 15px;
    float: left;
@@ -95,24 +100,28 @@ ul.selection {
         background-color: #073C6D;
     }
     ul.selection li {
-        float: right;
+        float: left;
     }
     ul.selection li a {
         display: block;
         color: white;
         text-align: center;
-        padding: 14px 16px;
+        padding: 13px 0;
+        width: 100%;
         text-decoration: none;
     }
 
     /* Change the link color to #111 (black) on hover */
-    ul.selection li a:hover {
-        background-color: #555;
+    ul.selection a:hover {
+       background-color: #ee970d;
+        border-radius: 5px 5px 0 0;
     }
+
+
 .fname, .lname {
 	width: 350px;
 	height: 50px;
-	border-radius: 10px;
+	border-radius: 5px 5px 0 0;
 	border: 0;
 }
 .btn {
@@ -121,17 +130,39 @@ ul.selection {
 	border-radius: 5px;
 	float: right;
 	margin-right: 35px;
-	background: green;
+	background: #5fbd00;
 	border: 0;
 	color: white;
 	font-weight: bold;
 }
+.button1 {
+    width: 50%;
+    height: 50px;
+    background-color: #073C6D;
+    border-radius: 5px 5px 0 0;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.button2 {
+    width: 50%;
+    height: 50px;
+    background-color: #ee970d;
+    border-radius: 5px 5px 0 0;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
 </style> 
 </head> 
 	<body> 
 		<div class="centerDiv">
-		<div class="bottomTitle">Ut enim ad minima veniam</div>
-			<div class="botSec1">
+		    <div class="bottomTitle">Ut enim ad minima veniam
+            </div>
+            <div class="botSec1">
                 <div class="phone">
                     <img src="images/phone.png" id="phoneImage">
                 </div>
@@ -146,16 +177,16 @@ ul.selection {
                         <span class="icontent">Nam libero tempore, cum soluta nobis est eligendi</span>
                     </div>
                 </div>
-            </div>  
+            </div>
             <div class="botSec2">
                 <div class="botnav">
                     <ul class="selection">
-                    		<li><a href="#news.asp">Qui ratione</a></li>
-                        <li><a href="#default.asp">Iste natus</a></li>
+                        <li class="button1"><a href="#">Iste natus</a></li>
+                        <li class="button2"><a href="#">Qui ratione</a></li>
                     </ul>
                 </div>
                 <div class="formBox">
-                    <form action="/action_page_post.php" method="post">
+                    <form action="" method="post">
                     <center>
                       <br>
                       <input class="fname" type="text" name="firstname" placeholder="Adipiscing"><br>
@@ -166,7 +197,7 @@ ul.selection {
                       <button class="btn" type="button" onclick="alert('Are you sure you want to submit?')">Vel illum qui</button>
                     </form>
                 </div>
-            </div>    
+            </div>
 		</div> 
 	</body> 
 </html>
