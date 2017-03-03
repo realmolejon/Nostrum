@@ -1,0 +1,67 @@
+body{
+    font-size: 19px;
+    color: rgba(0, 0, 81, 0.83);
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.color {
+    background: rgba(44, 55, 11, 0.16);
+    width: 1366px;
+    height: 150px;
+
+}
+#icons{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+
+#content {
+    padding: 0 0 0 85px;
+    position: relative;
+    width: 300px;
+    text-align: left;
+    float: left;
+    left: 5px;
+
+}
+
+#content img {
+    left: 2px;
+    margin-top: 8px;
+    position: absolute;
+
+}
+
+#connect{
+    padding: 0 0 0 85px;
+    position: relative;
+    width: 300px;
+    text-align: left;
+    float: left;
+    left: 20px;
+
+}
+
+#connect img {
+    left: 5px;
+    margin-top: 8px;
+    position: absolute;
+
+}
+
+#message{
+    padding: 0 0 0 85px;
+    position: relative;
+    width: 300px;
+    text-align: left;
+    float: right;
+    left: 30px;
+}
+#message img{
+    left: 5px;
+    margin-top: 8px;
+    position: absolute;
+}
