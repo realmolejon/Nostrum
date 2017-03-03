@@ -1,0 +1,172 @@
+<!DOCTYPE html> <html > 
+<head> 
+<style type="text/css"> 
+body {
+	font-family: "calibri";
+	color: #073C6D;
+}
+.bottomTitle {
+	font-size: 30px;
+}
+.centerDiv { 
+	width: 70%; 
+	height:800px; 
+	margin: 0 auto; 
+	/*background-color:#FFA500;*/
+	padding: 0 10px;
+	}
+.container {
+   margin-top: 15px;
+   float: left;
+   margin-left: 25px;
+   font-size: 18px;
+}
+.container .icon1 {
+    height: 90px;
+    width: 80px;
+    background-image: url(images/wifi.png);
+    background-repeat: no-repeat;
+    display: block;
+    vertical-align: middle;
+    padding-left: 80px;
+}
+.container .icon2 {
+    height: 90px;
+    width: 80px;
+    background-image: url(images/connect.png);
+    background-repeat: no-repeat;
+    display: block;
+    vertical-align: middle;
+    padding-left: 80px;
+}
+.container .icon3 {
+    height: 90px;
+    width: 80px;
+    background-image: url(images/message.png);
+    background-repeat: no-repeat;
+    display: block;
+    vertical-align: middle;
+    padding-left: 80px;
+}
+.container .icontent {
+    display: inline-block;
+    vertical-align: middle;
+    width: 210px;
+    height:40px;
+    background: #efefef;
+    margin-top: 15px;
+}
+.phone {
+   margin-top: 15px;
+   float: left;
+
+}
+#phoneImage {
+    height: 250px;
+
+}
+.botSec2 {
+    margin: 0 auto;
+    float: right;
+}
+
+.formBox {
+    width:415px;
+    height:225px;
+    background: #073C6D;
+    color: white;
+    align-content: center;
+    border-radius: 0 0 10px 10px;
+    margin: 0 auto;
+}
+
+.botnav {
+    background-color: #073C6D;
+    width: 415px;
+    height: 50px;
+    margin-top: -30px;
+    border-radius: 10px 10px 0 0;
+	border: 0;
+}
+ul.selection {
+        list-style-type: none;
+        margin-top: 15px;
+        padding: 0;
+        background-color: #073C6D;
+    }
+    ul.selection li {
+        float: right;
+    }
+    ul.selection li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    ul.selection li a:hover {
+        background-color: #555;
+    }
+.fname, .lname {
+	width: 350px;
+	height: 50px;
+	border-radius: 10px;
+	border: 0;
+}
+.btn {
+	width: 150px;
+	height: 45px;
+	border-radius: 5px;
+	float: right;
+	margin-right: 35px;
+	background: green;
+	border: 0;
+	color: white;
+	font-weight: bold;
+}
+</style> 
+</head> 
+	<body> 
+		<div class="centerDiv">
+		<div class="bottomTitle">Ut enim ad minima veniam</div>
+			<div class="botSec1">
+                <div class="phone">
+                    <img src="images/phone.png" id="phoneImage">
+                </div>
+                <div class="container">
+                    <div class="icon1">
+                        <span class="icontent">Nam libero tempore, cum soluta nobis est eligendi</span>
+                    </div>
+                    <div class="icon2">
+                        <span class="icontent">Nam libero tempore, cum soluta nobis est eligendi</span>
+                    </div>
+                    <div class="icon3">
+                        <span class="icontent">Nam libero tempore, cum soluta nobis est eligendi</span>
+                    </div>
+                </div>
+            </div>  
+            <div class="botSec2">
+                <div class="botnav">
+                    <ul class="selection">
+                    		<li><a href="#news.asp">Qui ratione</a></li>
+                        <li><a href="#default.asp">Iste natus</a></li>
+                    </ul>
+                </div>
+                <div class="formBox">
+                    <form action="/action_page_post.php" method="post">
+                    <center>
+                      <br>
+                      <input class="fname" type="text" name="firstname" placeholder="Adipiscing"><br>
+                      <br>
+                      <input class="lname" type="text" name="lastname" placeholder="Ex ea commodi">
+                      </center>
+                      <br>
+                      <button class="btn" type="button" onclick="alert('Are you sure you want to submit?')">Vel illum qui</button>
+                    </form>
+                </div>
+            </div>    
+		</div> 
+	</body> 
+</html>
