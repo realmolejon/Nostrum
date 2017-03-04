@@ -1,10 +1,163 @@
 <!DOCTYPE html> <html > 
 <head> 
-<style type="text/css"> 
+<style type="text/css">
+
+    .color {
+
+        background: rgba(44, 55, 11, 0.16);
+
+        width: 1366px;
+
+        height: 150px;
+
+    }
+
+    #icons{
+
+        display: inline-block;
+
+        padding: 5px;
+
+        margin-top: 1px;
+
+        margin-left: 70px;
+
+    }
+
+    #content-image {
+
+        padding: 0 0 0 85px;
+
+        position: relative;
+
+        width: 300px;
+
+        text-align: left;
+
+        float: left;
+
+        left: 5px;
+
+
+
+    }
+
+    #content-image img {
+
+        left: 2px;
+
+        margin-top: 35px;
+
+        position: absolute;
+
+    }
+
+    #connect-image{
+
+        padding: 0 0 0 85px;
+
+        position: relative;
+
+        width: 300px;
+
+        text-align: left;
+
+        float: left;
+
+        left: 20px;
+
+    }
+
+    #connect-image img {
+
+        left: 5px;
+
+        margin-top: 35px;
+
+        position: absolute;
+
+    }
+
+    #message-image{
+
+        padding: 0 0 0 85px;
+
+        position: relative;
+
+        width: 300px;
+
+        text-align: left;
+
+        float: right;
+
+        left: 30px;
+
+    }
+
+    #message-image img{
+
+        left: 5px;
+
+        margin-top: 35px;
+
+        position: absolute;
+
+    }
+    #iphone7{
+        margin-left:205px;
+        margin-top: 20px;
+    }
+    #header1{
+        float: right;
+        margin-right: 240px;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    #p1{
+        float: right;
+        width: 666px;
+        margin-right: 200px;
+        font-size: 29px;
+        margin-top: 3px;
+    }
+    .myButton {
+        background-color:#44c767;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+
+        display:inline-block;
+        cursor:pointer;
+        color:white;
+        font-family:calibri;
+        font-size:25x;
+        padding:12px 31px;
+        text-decoration:none;
+
+        float: right;
+        margin-right: 670px;
+        margin-top: -20px;
+        font-weight: bold;
+    }
+    .myButton:hover {
+        background-color: rgba(88, 178, 41, 0.84);
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+
+    }
+
+
+
 body {
 	font-family: "Calibri";
 	color: #073C6D;
     background-color: #f1fcff;
+    font-size: 25px;
+    color: rgba(0, 0, 81, 0.83);
+
+
 }
 .bottomTitle {
 	font-size: 30px;
@@ -129,11 +282,13 @@ ul.selection {
 	height: 45px;
 	border-radius: 5px;
 	float: right;
-	margin-right: 35px;
-	background: #5fbd00;
+	margin-right: 31px;
+	background: #44c767;
 	border: 0;
 	color: white;
 	font-weight: bold;
+    margin-top: -22px;
+    font-size: 19px;
 }
 .button1 {
     width: 50%;
@@ -157,7 +312,45 @@ ul.selection {
 }
 
 </style> 
-</head> 
+</head>
+<div class="color">
+
+    <div style="clear:both;"></div>
+
+    <div id="icons">
+
+        <section id="content-image">
+
+            <img src="images/wifi.png" width="75" height="75" alt="Thumb!" />
+
+            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit</p>
+
+        </section>
+
+        <section id="connect-image">
+
+            <img src="images/connect.png" width="75" height="75" alt="Thumb!" />
+
+            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit</p>
+
+        </section>
+
+        <section id="message-image">
+
+            <img src="images/message.png" width="75" height="75" alt="Thumb!" />
+
+            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit</p>
+
+        </section>
+
+    </div>
+    <div id="iphone7">
+        <img src="images/iphone7.png" width="270" height="215">
+        <header id="header1">At vero eos et accusamus et iusto odio</header>
+        <p id="p1">Nam libero tempore, cum soluta nobis est eligendi optio
+            nihil impedt quo minus id quod maxime placeat facere</p>
+        <a href="#" class="myButton">Vel illum qui</a>
+    </div>
 	<body> 
 		<div class="centerDiv">
 		    <div class="bottomTitle">Ut enim ad minima veniam
