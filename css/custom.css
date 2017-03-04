@@ -1,67 +1,157 @@
+
 body{
-    font-size: 19px;
+    font-size: 25px;
+
     color: rgba(0, 0, 81, 0.83);
-    font-family: "Lucida Console", Monaco, monospace;
+
+    font-family: Calibri;
+
 }
 
 .color {
+
     background: rgba(44, 55, 11, 0.16);
+
     width: 1366px;
+
     height: 150px;
 
 }
+
 #icons{
+
     display: inline-block;
+
     padding: 5px;
-    margin-top: 20px;
+
+    margin-top: 1px;
+
     margin-left: 70px;
+
 }
 
-
 #content {
+
     padding: 0 0 0 85px;
+
     position: relative;
+
     width: 300px;
+
     text-align: left;
+
     float: left;
+
     left: 5px;
+
+
 
 }
 
 #content img {
+
     left: 2px;
-    margin-top: 8px;
+
+    margin-top: 35px;
+
     position: absolute;
 
 }
 
 #connect{
+
     padding: 0 0 0 85px;
+
     position: relative;
+
     width: 300px;
+
     text-align: left;
+
     float: left;
+
     left: 20px;
 
 }
 
 #connect img {
+
     left: 5px;
-    margin-top: 8px;
+
+    margin-top: 35px;
+
     position: absolute;
 
 }
 
 #message{
+
     padding: 0 0 0 85px;
+
     position: relative;
+
     width: 300px;
+
     text-align: left;
+
     float: right;
+
     left: 30px;
+
 }
+
 #message img{
+
     left: 5px;
-    margin-top: 8px;
+
+    margin-top: 35px;
+
     position: absolute;
+
 }
+#iphone7{
+    margin-left:200px;
+    margin-top: 20px;
+}
+#header1{
+    float: right;
+    margin-right: 260px;
+    font-size: 40px;
+    margin-top: 10px;
+}
+#p1{
+    float: right;
+    width: 670px;
+    margin-right: 217px;
+    font-size: 29px;
+    margin-top: 3px;
+}
+.myButton {
+    background-color:#44c767;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+
+    display:inline-block;
+    cursor:pointer;
+    color:white;
+    font-family:calibri;
+    font-size:25x;
+    padding:12px 31px;
+    text-decoration:none;
+
+    float: right;
+    margin-right: 695px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+.myButton:hover {
+    background-color: rgba(88, 178, 41, 0.84);
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+
+}
+
+
